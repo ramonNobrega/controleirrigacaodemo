@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/umidade_title"
+        android:id="@+id/idUmidadeTitle"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="false"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/temperatura_title"
+        android:id="@+id/idTempTitle"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/idUmidadeTitle"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:background="#00ffffff"
+        android:src="@drawable/check"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/idUmidadeTitle"
+        android:layout_alignEnd="@+id/idUmidadeTitle"
+        android:layout_marginRight="42dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginTop="48dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:background="#00ffffff"
+        android:src="@drawable/uncheck"
+        android:layout_above="@+id/textView"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/valvula1"
+        android:id="@+id/textView"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginEnd="29dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignEnd="@+id/idUmidadeTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/valvula2"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toRightOf="@+id/idTempTitle"
+        android:layout_toEndOf="@+id/idTempTitle" />
+
+
+</RelativeLayout>

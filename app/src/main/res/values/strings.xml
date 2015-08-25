@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Controle de Irrigação</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="valvula1">Válvula 1</string>
+    <string name="valvula2">Válvula 2</string>
+    <string name="manual_title">Ativação Manual das Válvulas</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="temperatura_title">Temperatura ambiente:</string>
+    <string name="umidade_title">Umidade do solo:</string>
+    <string name="adicionar_alarme_button">Adicionar Alarme</string>
+    <string name="config_alarm_picker">configAlarmPicker</string>
+</resources>
